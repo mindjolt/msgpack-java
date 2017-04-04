@@ -30,12 +30,12 @@ import org.msgpack.packer.Unconverter;
 import org.msgpack.type.ValueType;
 
 public class MessagePackUnpacker extends AbstractUnpacker {
-    protected static final byte REQUIRE_TO_READ_HEAD = (byte) 0xc1;    // JamCity MOD: Changed private to protected
+    protected static final byte REQUIRE_TO_READ_HEAD = (byte) 0xc1;    // JamCity-Mods: Changed private to protected
 
     protected final Input in;
-    protected final UnpackerStack stack = new UnpackerStack();    // JamCity MOD: Changed private to protected
+    protected UnpackerStack stack = new UnpackerStack();    // JamCity-Mods: Changed private to protected and removed final keyword
 
-    protected byte headByte = REQUIRE_TO_READ_HEAD;    // JamCity MOD: Changed private to protected
+    protected byte headByte = REQUIRE_TO_READ_HEAD;    // JamCity-Mods: Changed private to protected
 
     private byte[] raw;
     private int rawFilled;
@@ -60,7 +60,7 @@ public class MessagePackUnpacker extends AbstractUnpacker {
         this.in = in;
     }
 
-    protected byte getHeadByte() throws IOException {    // JamCity MOD: Changed private to protected
+    protected byte getHeadByte() throws IOException {    // JamCity-Mods: Changed private to protected
         byte b = headByte;
         if (b == REQUIRE_TO_READ_HEAD) {
             b = headByte = in.readByte();

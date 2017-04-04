@@ -21,6 +21,8 @@ import java.io.InputStream;
 import java.nio.ByteBuffer;
 import java.io.IOException;
 import java.io.EOFException;
+import java.io.FileInputStream;
+import java.nio.channels.FileChannel;
 
 public class StreamInput extends AbstractInput {
     private final InputStream in;
@@ -110,5 +112,26 @@ public class StreamInput extends AbstractInput {
 
     public void close() throws IOException {
         in.close();
+    }
+
+    // JamCity-Mods: Implement seekable inputs...
+    public boolean canSeek() {
+        return in != null && in instanceof FileInputStream;
+    }
+
+    public long getPosition() throws IOException {
+        if (!canSeek())
+            throw new UnsupportedOperationException(String.format("getPosition() not supported for stream: %s", in != null ? in.getClass().getName() : "null"));
+        return ((FileInputStream)in).getChannel().position();
+    }
+
+    public void setPosition(long position) throws IOException {
+        if (!canSeek())
+            throw new UnsupportedOperationException(String.format("seek() not supported for stream: %s", in != null ? in.getClass().getName() : "null"));
+        FileChannel channel = ((FileInputStream)in).getChannel();
+        long oldPosition = channel.position();
+        long delta = position - oldPosition;
+        setReadByteCount((int)(getReadByteCount() + delta));    // NOTE: stream might not have been at start when Input was first instantiated from it
+        channel.position(position);
     }
 }

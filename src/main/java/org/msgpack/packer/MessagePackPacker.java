@@ -30,7 +30,7 @@ import org.msgpack.MessageTypeException;
 public class MessagePackPacker extends AbstractPacker {
     protected final Output out;
 
-    protected PackerStack stack = new PackerStack();    // JamCity MOD: Changed private to protected
+    protected PackerStack stack = new PackerStack();    // JamCity-Mods: Changed private to protected
 
     public MessagePackPacker(MessagePack msgpack, OutputStream stream) {
         this(msgpack, new StreamOutput(stream));

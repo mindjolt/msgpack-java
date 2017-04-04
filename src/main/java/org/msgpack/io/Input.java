@@ -44,4 +44,11 @@ public interface Input extends Closeable {
     public int getReadByteCount();
 
     public void resetReadByteCount();
+
+    // JamCity-Mods: Implement seekable inputs...
+    public boolean canSeek();
+
+    public long getPosition() throws IOException;
+
+    public void setPosition(long position) throws IOException;
 }

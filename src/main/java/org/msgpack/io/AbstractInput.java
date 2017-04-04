@@ -17,7 +17,7 @@
 //
 package org.msgpack.io;
 
-abstract class AbstractInput implements Input {
+public abstract class AbstractInput implements Input {  // JamCity-Mods: Make public, so JXform-related subclasses can inherit from this
 
     private int readByteCount = 0;
 
@@ -35,5 +35,10 @@ abstract class AbstractInput implements Input {
 
     protected final void incrReadOneByteCount() {
         readByteCount += 1;
+    }
+
+    // JamCity-Mods: Support for implementing seekable inputs...
+    protected void setReadByteCount(int count) {
+        readByteCount = count;
     }
 }

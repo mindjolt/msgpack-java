@@ -396,4 +396,18 @@ public class LinkedBufferInput extends AbstractInput {
 
     public void close() {
     }
+
+    // JamCity-Mods: Implement seekable inputs...
+    // NOTE: LinkedBufferInput does not support seeking, since it unlinks buffers and doesn't have a way to return to them
+    public boolean canSeek() {
+        return false;
+    }
+
+    public long getPosition() throws IOException {
+        throw new UnsupportedOperationException("getPosition() not implemented for LinkedBufferInput");
+    }
+
+    public void setPosition(long position) throws IOException {
+        throw new UnsupportedOperationException("seek() not implemented for LinkedBufferInput");
+    }
 }

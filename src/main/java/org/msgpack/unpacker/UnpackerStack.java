@@ -19,10 +19,10 @@ package org.msgpack.unpacker;
 
 import org.msgpack.MessageTypeException;
 
-public final class UnpackerStack {
-    private int top;
+public class UnpackerStack {    // JamCity-Mods: Removed final keyword
+    protected int top;          // JamCity-Mods: Changed private to protected
     private byte[] types;
-    private int[] counts;
+    protected int[] counts;     // JamCity-Mods: Changed private to protected
 
     public static final int MAX_STACK_SIZE = 128;
 
