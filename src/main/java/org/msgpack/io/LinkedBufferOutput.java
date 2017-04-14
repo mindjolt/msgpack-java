@@ -19,7 +19,7 @@ package org.msgpack.io;
 
 import java.util.LinkedList;
 
-public final class LinkedBufferOutput extends BufferedOutput {
+public class LinkedBufferOutput extends BufferedOutput {
     private static final class Link {
         final byte[] buffer;
         final int offset;

@@ -27,9 +27,9 @@ import java.nio.channels.FileChannel;
 public class StreamInput extends AbstractInput {
     private final InputStream in;
 
-    private byte[] castBuffer;
+    protected byte[] castBuffer;    // JamCity-Mods: Changed private to protected
     private ByteBuffer castByteBuffer;
-    private int filled;
+    protected int filled;           // JamCity-Mods: Changed private to protected
 
     public StreamInput(InputStream in) {
         this.in = in;
@@ -127,7 +127,7 @@ public class StreamInput extends AbstractInput {
 
     public void setPosition(long position) throws IOException {
         if (!canSeek())
-            throw new UnsupportedOperationException(String.format("seek() not supported for stream: %s", in != null ? in.getClass().getName() : "null"));
+            throw new UnsupportedOperationException(String.format("setPosition() not supported for stream: %s", in != null ? in.getClass().getName() : "null"));
         FileChannel channel = ((FileInputStream)in).getChannel();
         long oldPosition = channel.position();
         long delta = position - oldPosition;
