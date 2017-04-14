@@ -408,6 +408,6 @@ public class LinkedBufferInput extends AbstractInput {
     }
 
     public void setPosition(long position) throws IOException {
-        throw new UnsupportedOperationException("seek() not implemented for LinkedBufferInput");
+        throw new UnsupportedOperationException("setPosition() not implemented for LinkedBufferInput");
     }
 }
