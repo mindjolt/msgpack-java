@@ -19,7 +19,7 @@ package org.msgpack.io;
 
 import java.util.LinkedList;
 
-public class LinkedBufferOutput extends BufferedOutput {
+public class LinkedBufferOutput extends BufferedOutput {    // JamCity-Mods: Changed to non-final to allow extending
     private static final class Link {
         final byte[] buffer;
         final int offset;
