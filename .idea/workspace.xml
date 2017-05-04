@@ -1,0 +1,2095 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="10c44416-8dfc-4548-89bb-af52cf05dd72" name="Default" comment="">
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/MessagePack.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/MessagePack.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/MessagePackable.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/MessagePackable.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/MessageTypeException.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/MessageTypeException.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/annotation/Beans.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/annotation/Beans.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/annotation/Delegate.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/annotation/Delegate.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/annotation/Ignore.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/annotation/Ignore.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/annotation/Index.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/annotation/Index.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/annotation/Message.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/annotation/Message.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/annotation/MessagePackBeans.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/annotation/MessagePackBeans.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/annotation/MessagePackDelegate.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/annotation/MessagePackDelegate.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/annotation/MessagePackMessage.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/annotation/MessagePackMessage.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/annotation/MessagePackOrdinalEnum.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/annotation/MessagePackOrdinalEnum.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/annotation/NotNullable.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/annotation/NotNullable.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/annotation/Optional.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/annotation/Optional.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/annotation/OrdinalEnum.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/annotation/OrdinalEnum.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/io/AbstractInput.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/io/AbstractInput.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/io/BufferReferer.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/io/BufferReferer.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/io/BufferedOutput.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/io/BufferedOutput.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/io/ByteBufferOutput.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/io/ByteBufferOutput.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/io/EndOfBufferException.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/io/EndOfBufferException.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/io/Input.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/io/Input.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/io/LinkedBufferInput.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/io/LinkedBufferInput.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/io/LinkedBufferOutput.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/io/LinkedBufferOutput.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/io/Output.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/io/Output.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/io/StreamInput.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/io/StreamInput.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/io/StreamOutput.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/io/StreamOutput.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/packer/AbstractPacker.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/packer/AbstractPacker.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/packer/BufferPacker.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/packer/BufferPacker.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/packer/MessagePackBufferPacker.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/packer/MessagePackBufferPacker.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/packer/MessagePackPacker.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/packer/MessagePackPacker.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/packer/Packer.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/packer/Packer.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/packer/PackerStack.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/packer/PackerStack.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/packer/Unconverter.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/packer/Unconverter.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/template/AbstractTemplate.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/template/AbstractTemplate.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/template/AnyTemplate.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/template/AnyTemplate.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/template/BigDecimalTemplate.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/template/BigDecimalTemplate.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/template/BigIntegerTemplate.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/template/BigIntegerTemplate.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/template/BooleanArrayTemplate.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/template/BooleanArrayTemplate.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/template/BooleanTemplate.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/template/BooleanTemplate.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/template/ByteArrayTemplate.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/template/ByteArrayTemplate.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/template/ByteBufferTemplate.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/template/ByteBufferTemplate.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/template/ByteTemplate.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/template/ByteTemplate.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/template/CharacterTemplate.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/template/CharacterTemplate.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/template/CollectionTemplate.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/template/CollectionTemplate.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/template/DateTemplate.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/template/DateTemplate.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/template/DoubleArrayTemplate.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/template/DoubleArrayTemplate.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/template/DoubleTemplate.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/template/DoubleTemplate.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/template/FieldList.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/template/FieldList.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/template/FieldOption.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/template/FieldOption.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/template/FloatArrayTemplate.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/template/FloatArrayTemplate.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/template/FloatTemplate.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/template/FloatTemplate.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/template/GenericCollectionTemplate.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/template/GenericCollectionTemplate.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/template/GenericMapTemplate.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/template/GenericMapTemplate.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/template/GenericTemplate.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/template/GenericTemplate.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/template/IntegerArrayTemplate.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/template/IntegerArrayTemplate.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/template/IntegerTemplate.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/template/IntegerTemplate.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/template/ListTemplate.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/template/ListTemplate.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/template/LongArrayTemplate.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/template/LongArrayTemplate.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/template/LongTemplate.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/template/LongTemplate.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/template/MapTemplate.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/template/MapTemplate.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/template/MessagePackableTemplate.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/template/MessagePackableTemplate.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/template/NotNullableTemplate.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/template/NotNullableTemplate.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/template/ObjectArrayTemplate.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/template/ObjectArrayTemplate.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/template/OrdinalEnumTemplate.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/template/OrdinalEnumTemplate.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/template/SetTemplate.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/template/SetTemplate.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/template/ShortArrayTemplate.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/template/ShortArrayTemplate.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/template/ShortTemplate.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/template/ShortTemplate.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/template/StringTemplate.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/template/StringTemplate.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/template/Template.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/template/Template.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/template/TemplateReference.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/template/TemplateReference.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/template/TemplateRegistry.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/template/TemplateRegistry.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/template/Templates.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/template/Templates.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/template/ValueTemplate.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/template/ValueTemplate.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/template/builder/AbstractTemplateBuilder.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/template/builder/AbstractTemplateBuilder.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/template/builder/ArrayTemplateBuilder.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/template/builder/ArrayTemplateBuilder.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/template/builder/BeansBuildContext.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/template/builder/BeansBuildContext.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/template/builder/BeansFieldEntry.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/template/builder/BeansFieldEntry.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/template/builder/BuildContext.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/template/builder/BuildContext.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/template/builder/DefaultBuildContext.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/template/builder/DefaultBuildContext.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/template/builder/DefaultFieldEntry.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/template/builder/DefaultFieldEntry.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/template/builder/FieldEntry.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/template/builder/FieldEntry.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/template/builder/JavassistBeansTemplateBuilder.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/template/builder/JavassistBeansTemplateBuilder.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/template/builder/JavassistTemplateBuilder.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/template/builder/JavassistTemplateBuilder.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/template/builder/JavassistTemplateBuilder.java.orig" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/template/builder/JavassistTemplateBuilder.java.orig" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/template/builder/OrdinalEnumTemplateBuilder.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/template/builder/OrdinalEnumTemplateBuilder.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/template/builder/ReflectionBeansTemplateBuilder.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/template/builder/ReflectionBeansTemplateBuilder.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/template/builder/ReflectionTemplateBuilder.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/template/builder/ReflectionTemplateBuilder.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/template/builder/TemplateBuildException.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/template/builder/TemplateBuildException.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/template/builder/TemplateBuilder.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/template/builder/TemplateBuilder.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/template/builder/TemplateBuilderChain.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/template/builder/TemplateBuilderChain.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/template/builder/beans/BeanDescriptor.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/template/builder/beans/BeanDescriptor.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/template/builder/beans/BeanInfo.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/template/builder/beans/BeanInfo.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/template/builder/beans/EventSetDescriptor.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/template/builder/beans/EventSetDescriptor.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/template/builder/beans/ExceptionListener.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/template/builder/beans/ExceptionListener.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/template/builder/beans/Expression.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/template/builder/beans/Expression.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/template/builder/beans/FeatureDescriptor.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/template/builder/beans/FeatureDescriptor.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/template/builder/beans/IndexedPropertyDescriptor.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/template/builder/beans/IndexedPropertyDescriptor.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/template/builder/beans/IntrospectionException.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/template/builder/beans/IntrospectionException.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/template/builder/beans/Introspector.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/template/builder/beans/Introspector.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/template/builder/beans/MethodDescriptor.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/template/builder/beans/MethodDescriptor.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/template/builder/beans/ParameterDescriptor.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/template/builder/beans/ParameterDescriptor.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/template/builder/beans/PropertyChangeEvent.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/template/builder/beans/PropertyChangeEvent.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/template/builder/beans/PropertyChangeListener.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/template/builder/beans/PropertyChangeListener.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/template/builder/beans/PropertyDescriptor.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/template/builder/beans/PropertyDescriptor.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/template/builder/beans/PropertyEditor.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/template/builder/beans/PropertyEditor.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/template/builder/beans/PropertyVetoException.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/template/builder/beans/PropertyVetoException.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/template/builder/beans/SimpleBeanInfo.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/template/builder/beans/SimpleBeanInfo.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/template/builder/beans/StandardBeanInfo.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/template/builder/beans/StandardBeanInfo.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/template/builder/beans/Statement.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/template/builder/beans/Statement.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/template/builder/beans/XMLDecoder.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/template/builder/beans/XMLDecoder.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/type/AbstractArrayValue.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/type/AbstractArrayValue.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/type/AbstractBooleanValue.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/type/AbstractBooleanValue.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/type/AbstractMapValue.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/type/AbstractMapValue.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/type/AbstractRawValue.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/type/AbstractRawValue.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/type/AbstractValue.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/type/AbstractValue.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/type/ArrayValue.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/type/ArrayValue.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/type/ArrayValueImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/type/ArrayValueImpl.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/type/BigIntegerValueImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/type/BigIntegerValueImpl.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/type/BooleanValue.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/type/BooleanValue.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/type/ByteArrayRawValueImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/type/ByteArrayRawValueImpl.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/type/DoubleValueImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/type/DoubleValueImpl.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/type/FalseValueImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/type/FalseValueImpl.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/type/FloatValue.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/type/FloatValue.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/type/FloatValueImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/type/FloatValueImpl.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/type/IntValueImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/type/IntValueImpl.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/type/IntegerValue.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/type/IntegerValue.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/type/LongValueImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/type/LongValueImpl.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/type/MapValue.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/type/MapValue.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/type/NilValue.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/type/NilValue.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/type/NumberValue.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/type/NumberValue.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/type/RawValue.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/type/RawValue.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/type/SequentialMapValueImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/type/SequentialMapValueImpl.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/type/StringRawValueImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/type/StringRawValueImpl.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/type/TrueValueImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/type/TrueValueImpl.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/type/Value.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/type/Value.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/type/ValueFactory.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/type/ValueFactory.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/type/ValueType.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/type/ValueType.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/unpacker/AbstractUnpacker.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/unpacker/AbstractUnpacker.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/unpacker/Accept.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/unpacker/Accept.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/unpacker/ArrayAccept.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/unpacker/ArrayAccept.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/unpacker/BigIntegerAccept.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/unpacker/BigIntegerAccept.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/unpacker/BufferUnpacker.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/unpacker/BufferUnpacker.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/unpacker/ByteArrayAccept.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/unpacker/ByteArrayAccept.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/unpacker/Converter.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/unpacker/Converter.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/unpacker/DoubleAccept.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/unpacker/DoubleAccept.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/unpacker/IntAccept.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/unpacker/IntAccept.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/unpacker/LongAccept.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/unpacker/LongAccept.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/unpacker/MapAccept.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/unpacker/MapAccept.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/unpacker/MessagePackBufferUnpacker.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/unpacker/MessagePackBufferUnpacker.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/unpacker/MessagePackUnpacker.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/unpacker/MessagePackUnpacker.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/unpacker/SizeLimitException.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/unpacker/SizeLimitException.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/unpacker/SkipAccept.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/unpacker/SkipAccept.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/unpacker/StringAccept.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/unpacker/StringAccept.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/unpacker/Unpacker.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/unpacker/Unpacker.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/unpacker/UnpackerIterator.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/unpacker/UnpackerIterator.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/unpacker/UnpackerStack.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/unpacker/UnpackerStack.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/unpacker/ValueAccept.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/unpacker/ValueAccept.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/util/TemplatePrecompiler.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/util/TemplatePrecompiler.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/util/android/DalvikVmChecker.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/util/android/DalvikVmChecker.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/util/android/PortedImmutableEntry.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/util/android/PortedImmutableEntry.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/util/json/JSON.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/util/json/JSON.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/util/json/JSONBufferPacker.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/util/json/JSONBufferPacker.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/util/json/JSONBufferUnpacker.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/util/json/JSONBufferUnpacker.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/util/json/JSONPacker.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/util/json/JSONPacker.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/util/json/JSONUnpacker.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/util/json/JSONUnpacker.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/TestBufferPackBufferUnpack.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/TestBufferPackBufferUnpack.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/TestBufferPackConvert.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/TestBufferPackConvert.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/TestBufferPackUnpack.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/TestBufferPackUnpack.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/TestClassTemplate.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/TestClassTemplate.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/TestCrossLang.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/TestCrossLang.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/TestMessagePack01.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/TestMessagePack01.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/TestMessagePack02.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/TestMessagePack02.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/TestNestedList.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/TestNestedList.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/TestPackBufferUnpack.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/TestPackBufferUnpack.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/TestPackConvert.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/TestPackConvert.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/TestPackUnpack.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/TestPackUnpack.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/TestSet.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/TestSet.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/TestSimpleArrays.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/TestSimpleArrays.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/TestSimpleConvertUnconvert.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/TestSimpleConvertUnconvert.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/TestSimplePackable.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/TestSimplePackable.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/TestThreadSafety.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/TestThreadSafety.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/TestUnconvertConvert.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/TestUnconvertConvert.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/TestUnconvertReconvert.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/TestUnconvertReconvert.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/annotation/TestOptionalBufferPackBufferUnpack.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/annotation/TestOptionalBufferPackBufferUnpack.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/annotation/TestOptionalBufferPackUnpack.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/annotation/TestOptionalBufferPackUnpack.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/annotation/TestOptionalJavassistBufferPackBufferUnpack.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/annotation/TestOptionalJavassistBufferPackBufferUnpack.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/annotation/TestOptionalJavassistBufferPackUnpack.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/annotation/TestOptionalJavassistBufferPackUnpack.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/annotation/TestOptionalJavassistPackBufferUnpack.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/annotation/TestOptionalJavassistPackBufferUnpack.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/annotation/TestOptionalJavassistPackUnpack.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/annotation/TestOptionalJavassistPackUnpack.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/annotation/TestOptionalPackBufferUnpack.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/annotation/TestOptionalPackBufferUnpack.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/annotation/TestOptionalPackUnpack.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/annotation/TestOptionalPackUnpack.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/annotation/TestOptionalReflectionBufferPackBufferUnpack.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/annotation/TestOptionalReflectionBufferPackBufferUnpack.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/annotation/TestOptionalReflectionBufferPackUnpack.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/annotation/TestOptionalReflectionBufferPackUnpack.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/annotation/TestOptionalReflectionPackBufferUnpack.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/annotation/TestOptionalReflectionPackBufferUnpack.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/annotation/TestOptionalReflectionPackUnpack.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/annotation/TestOptionalReflectionPackUnpack.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/annotation/TestSetOptional.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/annotation/TestSetOptional.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/io/TestLinkedBufferInput.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/io/TestLinkedBufferInput.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/io/TestLinkedBufferOutput.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/io/TestLinkedBufferOutput.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/simple/TestSimpleDynamicTyping.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/simple/TestSimpleDynamicTyping.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/simple/TestSimplePackUnpack.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/simple/TestSimplePackUnpack.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/simple/TestSimpleStreaming.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/simple/TestSimpleStreaming.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/template/TestBigDecimalTemplate.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/template/TestBigDecimalTemplate.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/template/TestBigIntegerTemplate.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/template/TestBigIntegerTemplate.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/template/TestBooleanArrayTemplate.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/template/TestBooleanArrayTemplate.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/template/TestBooleanTemplate.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/template/TestBooleanTemplate.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/template/TestByteArrayTemplate.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/template/TestByteArrayTemplate.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/template/TestByteBufferTemplate.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/template/TestByteBufferTemplate.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/template/TestCharacterTemplate.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/template/TestCharacterTemplate.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/template/TestDateTemplate.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/template/TestDateTemplate.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/template/TestDoubleArrayTemplate.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/template/TestDoubleArrayTemplate.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/template/TestDoubleTemplate.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/template/TestDoubleTemplate.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/template/TestFloatArrayTemplate.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/template/TestFloatArrayTemplate.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/template/TestFloatTemplate.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/template/TestFloatTemplate.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/template/TestIntegerArrayTemplate.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/template/TestIntegerArrayTemplate.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/template/TestIntegerTemplate.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/template/TestIntegerTemplate.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/template/TestListTemplate.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/template/TestListTemplate.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/template/TestLongArrayTemplate.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/template/TestLongArrayTemplate.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/template/TestLongTemplate.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/template/TestLongTemplate.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/template/TestMapTemplate.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/template/TestMapTemplate.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/template/TestShortArrayTemplate.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/template/TestShortArrayTemplate.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/template/TestShortTemplate.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/template/TestShortTemplate.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/template/TestStringTemplate.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/template/TestStringTemplate.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/template/TestTemplateRegistry.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/template/TestTemplateRegistry.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/template/TestTemplates.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/template/TestTemplates.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/template/builder/TestJavassistBufferPackBufferUnpack.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/template/builder/TestJavassistBufferPackBufferUnpack.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/template/builder/TestJavassistBufferPackConvert.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/template/builder/TestJavassistBufferPackConvert.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/template/builder/TestJavassistBufferPackUnpack.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/template/builder/TestJavassistBufferPackUnpack.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/template/builder/TestJavassistPackBufferUnpack.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/template/builder/TestJavassistPackBufferUnpack.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/template/builder/TestJavassistPackConvert.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/template/builder/TestJavassistPackConvert.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/template/builder/TestJavassistPackUnpack.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/template/builder/TestJavassistPackUnpack.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/template/builder/TestOrdinalEnumBufferPackBufferUnpack.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/template/builder/TestOrdinalEnumBufferPackBufferUnpack.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/template/builder/TestOrdinalEnumBufferPackConvert.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/template/builder/TestOrdinalEnumBufferPackConvert.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/template/builder/TestOrdinalEnumBufferPackUnpack.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/template/builder/TestOrdinalEnumBufferPackUnpack.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/template/builder/TestOrdinalEnumPackBufferUnpack.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/template/builder/TestOrdinalEnumPackBufferUnpack.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/template/builder/TestOrdinalEnumPackConvert.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/template/builder/TestOrdinalEnumPackConvert.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/template/builder/TestOrdinalEnumPackUnpack.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/template/builder/TestOrdinalEnumPackUnpack.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/template/builder/TestReflectionBeansBufferPackBufferUnpack.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/template/builder/TestReflectionBeansBufferPackBufferUnpack.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/template/builder/TestReflectionBeansBufferPackConvert.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/template/builder/TestReflectionBeansBufferPackConvert.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/template/builder/TestReflectionBeansBufferPackUnpack.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/template/builder/TestReflectionBeansBufferPackUnpack.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/template/builder/TestReflectionBeansPackBufferUnpack.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/template/builder/TestReflectionBeansPackBufferUnpack.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/template/builder/TestReflectionBeansPackConvert.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/template/builder/TestReflectionBeansPackConvert.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/template/builder/TestReflectionBeansPackUnpack.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/template/builder/TestReflectionBeansPackUnpack.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/template/builder/TestReflectionBufferPackBufferUnpack.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/template/builder/TestReflectionBufferPackBufferUnpack.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/template/builder/TestReflectionBufferPackConvert.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/template/builder/TestReflectionBufferPackConvert.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/template/builder/TestReflectionBufferPackUnpack.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/template/builder/TestReflectionBufferPackUnpack.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/template/builder/TestReflectionPackBufferUnpack.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/template/builder/TestReflectionPackBufferUnpack.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/template/builder/TestReflectionPackConvert.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/template/builder/TestReflectionPackConvert.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/template/builder/TestReflectionPackUnpack.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/template/builder/TestReflectionPackUnpack.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/template/builder/TestSet.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/template/builder/TestSet.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/testclasses/AbstractClass.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/testclasses/AbstractClass.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/testclasses/EnumTypeFieldsClass.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/testclasses/EnumTypeFieldsClass.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/testclasses/EnumTypeFieldsClassNotNullable.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/testclasses/EnumTypeFieldsClassNotNullable.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/testclasses/FinalClass.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/testclasses/FinalClass.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/testclasses/InheritanceClass.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/testclasses/InheritanceClass.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/testclasses/InheritanceClassNotNullable.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/testclasses/InheritanceClassNotNullable.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/testclasses/Interface.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/testclasses/Interface.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/testclasses/ListTypeFieldsClass.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/testclasses/ListTypeFieldsClass.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/testclasses/ListTypeFieldsClassNotNullable.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/testclasses/ListTypeFieldsClassNotNullable.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/testclasses/MapTypeFieldsClass.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/testclasses/MapTypeFieldsClass.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/testclasses/MapTypeFieldsClassNotNullable.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/testclasses/MapTypeFieldsClassNotNullable.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/testclasses/MessagePackableTypeFieldsClass.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/testclasses/MessagePackableTypeFieldsClass.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/testclasses/MessagePackableTypeFieldsClassNotNullable.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/testclasses/MessagePackableTypeFieldsClassNotNullable.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/testclasses/ModifiersFieldsClass.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/testclasses/ModifiersFieldsClass.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/testclasses/ModifiersFieldsClassNotNullable.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/testclasses/ModifiersFieldsClassNotNullable.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/testclasses/PrimitiveTypeFieldsClass.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/testclasses/PrimitiveTypeFieldsClass.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/testclasses/PrimitiveTypeFieldsClassNotNullable.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/testclasses/PrimitiveTypeFieldsClassNotNullable.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/testclasses/ReferenceCycleTypeFieldsClass.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/testclasses/ReferenceCycleTypeFieldsClass.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/testclasses/ReferenceCycleTypeFieldsClassNotNullable.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/testclasses/ReferenceCycleTypeFieldsClassNotNullable.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/testclasses/ReferenceTypeFieldsClass.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/testclasses/ReferenceTypeFieldsClass.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/testclasses/ReferenceTypeFieldsClassNotNullable.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/testclasses/ReferenceTypeFieldsClassNotNullable.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/testclasses/SuperClass.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/testclasses/SuperClass.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/testclasses/SuperClassNotNullable.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/testclasses/SuperClassNotNullable.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/testclasses/UserDefinedTypeFieldsClass.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/testclasses/UserDefinedTypeFieldsClass.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/testclasses/UserDefinedTypeFieldsClassNotNullable.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/testclasses/UserDefinedTypeFieldsClassNotNullable.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/type/ProxyValue.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/type/ProxyValue.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/type/TestEquals.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/type/TestEquals.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/type/TestHashCode.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/type/TestHashCode.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/unpacker/TestBufferUnpacker.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/unpacker/TestBufferUnpacker.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/unpacker/TestMalformedEncoding.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/unpacker/TestMalformedEncoding.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/unpacker/TestReadTemplate.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/unpacker/TestReadTemplate.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/unpacker/TestSizeLimit.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/unpacker/TestSizeLimit.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/unpacker/TestUnpackerIterator.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/unpacker/TestUnpackerIterator.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/unpacker/TestUnpackerSkip.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/unpacker/TestUnpackerSkip.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/util/TestTemplatePreCompilerBufferPackBufferUnpack.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/util/TestTemplatePreCompilerBufferPackBufferUnpack.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/util/json/TestJSONBufferPackBufferUnpack.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/util/json/TestJSONBufferPackBufferUnpack.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/util/json/TestJSONBufferPackUnpack.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/util/json/TestJSONBufferPackUnpack.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/util/json/TestJSONPackBufferUnpack.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/util/json/TestJSONPackBufferUnpack.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/util/json/TestJSONPackUnpack.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/util/json/TestJSONPackUnpack.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/util/json/TestSimpleJSONPackUnpack.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/util/json/TestSimpleJSONPackUnpack.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/util/json/TestValueToStringJSONUnpack.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/util/json/TestValueToStringJSONUnpack.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CHANGES.txt" afterPath="$PROJECT_DIR$/CHANGES.txt" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="TestBooleanArrayTemplate.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/template/TestBooleanArrayTemplate.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="283">
+              <caret line="75" column="39" lean-forward="false" selection-start-line="75" selection-start-column="39" selection-end-line="75" selection-end-column="39" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestDoubleArrayTemplate.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/template/TestDoubleArrayTemplate.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="208">
+              <caret line="86" column="20" lean-forward="false" selection-start-line="86" selection-start-column="20" selection-end-line="86" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestFloatArrayTemplate.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/template/TestFloatArrayTemplate.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1095">
+              <caret line="86" column="20" lean-forward="false" selection-start-line="86" selection-start-column="20" selection-end-line="86" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestIntegerArrayTemplate.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/template/TestIntegerArrayTemplate.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-482">
+              <caret line="247" column="20" lean-forward="false" selection-start-line="247" selection-start-column="20" selection-end-line="247" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestLongArrayTemplate.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/template/TestLongArrayTemplate.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-497">
+              <caret line="247" column="20" lean-forward="false" selection-start-line="247" selection-start-column="20" selection-end-line="247" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ShortArrayTemplate.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/template/ShortArrayTemplate.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-20">
+              <caret line="25" column="13" lean-forward="false" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestShortArrayTemplate.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/template/TestShortArrayTemplate.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-437">
+              <caret line="247" column="20" lean-forward="false" selection-start-line="247" selection-start-column="20" selection-end-line="247" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestClassTemplate.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/TestClassTemplate.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="30" column="49" lean-forward="false" selection-start-line="30" selection-start-column="49" selection-end-line="30" selection-end-column="49" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestBufferPackUnpack.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/TestBufferPackUnpack.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MessagePack.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/MessagePack.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="146">
+              <caret line="339" column="0" lean-forward="false" selection-start-line="339" selection-start-column="0" selection-end-line="339" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>org.msgpack</find>
+      <find>see</find>
+      <find>private static class</find>
+      <find>Directory not exists</find>
+      <find>test-classes</find>
+      <find>./target/</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>public static class</replace>
+      <replace>./classes/</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/src/main/java</dir>
+      <dir>$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/template</dir>
+      <dir>$PROJECT_DIR$</dir>
+      <dir>$PROJECT_DIR$/src</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="modificationStamps">
+      <map>
+        <entry key="$PROJECT_DIR$/../air-native-extensions-dlc" value="1475539075000" />
+        <entry key="$PROJECT_DIR$/../air-native-extensions-sgn-mobile" value="1479423755000" />
+        <entry key="$PROJECT_DIR$/../gs/client/unity/ane-dlc" value="1466108906000" />
+      </map>
+    </option>
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/template/builder/BeansBuildContext.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/template/builder/BuildContext.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/template/builder/DefaultBuildContext.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/template/builder/beans/Introspector.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/packer/BufferPacker.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/template/CharacterTemplate.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/MessagePack.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/unpacker/BufferUnpacker.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/template/TestBigDecimalTemplate.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/util/TestTemplatePreCompilerBufferPackBufferUnpack.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/template/builder/TemplateBuilderChain.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/template/TestBooleanArrayTemplate.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/template/TestDoubleArrayTemplate.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/template/TestFloatArrayTemplate.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/template/TestIntegerArrayTemplate.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/template/TestLongArrayTemplate.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/template/TestShortArrayTemplate.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/TestClassTemplate.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1881" />
+    <option name="y" value="-76" />
+    <option name="width" value="1680" />
+    <option name="height" value="921" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="msgpack-java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JUnit4" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="msgpack-java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="msgpack-java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="msgpack-java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="msgpack-java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="msgpack-java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="msgpack-java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="msgpack-java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="msgpack" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="msgpack-java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="msgpack-java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="msgpack" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TestClassTemplate.java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="msgpack-java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="msgpack-java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="msgpack" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="template" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="msgpack-java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="msgpack-java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="msgpack-java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="msgpack-java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="build" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="msgpack-java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="msgpack-java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="build" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="classes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jamcity" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="msgpack-java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="msgpack-java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="build" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="classes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
+    <property name="js.eslint.eslintPackage" value="" />
+    <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RunManager" selected="JUnit.TestClassTemplate">
+    <configuration default="false" name="TestBooleanArrayTemplate.testBufferPackBufferUnpack00" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.jamcity.msgpack.template.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="msgpack-java" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.jamcity.msgpack.template" />
+      <option name="MAIN_CLASS_NAME" value="com.jamcity.msgpack.template.TestBooleanArrayTemplate" />
+      <option name="METHOD_NAME" value="testBufferPackBufferUnpack00" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="TestBooleanArrayTemplate.testPackUnpack00" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.jamcity.msgpack.template.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="msgpack-java" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.jamcity.msgpack.template" />
+      <option name="MAIN_CLASS_NAME" value="com.jamcity.msgpack.template.TestBooleanArrayTemplate" />
+      <option name="METHOD_NAME" value="testPackUnpack00" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="TestClassTemplate.testClassTemplate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.jamcity.msgpack.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="msgpack-java" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.jamcity.msgpack" />
+      <option name="MAIN_CLASS_NAME" value="com.jamcity.msgpack.TestClassTemplate" />
+      <option name="METHOD_NAME" value="testClassTemplate" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="TestBufferPackUnpack" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.jamcity.msgpack.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="msgpack-java" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.jamcity.msgpack" />
+      <option name="MAIN_CLASS_NAME" value="com.jamcity.msgpack.TestBufferPackUnpack" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="TestClassTemplate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.jamcity.msgpack.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="msgpack-java" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.jamcity.msgpack" />
+      <option name="MAIN_CLASS_NAME" value="com.jamcity.msgpack.TestClassTemplate" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
+      <module name="" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
+        <option name="GAPID_ENABLED" value="false" />
+        <option name="GAPID_DISABLE_PCS" value="false" />
+        <option name="SUPPORT_LIB_ENABLED" value="true" />
+        <option name="INSTRUMENTATION_ENABLED" value="true" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="EXTRA_OPTIONS" value="" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
+        <option name="GAPID_ENABLED" value="false" />
+        <option name="GAPID_DISABLE_PCS" value="false" />
+        <option name="SUPPORT_LIB_ENABLED" value="true" />
+        <option name="INSTRUMENTATION_ENABLED" value="true" />
+      </Profilers>
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Cold Fusion runner description" factoryName="Cold Fusion" custom_browser="" web_path="">
+      <method />
+    </configuration>
+    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="myFilePath" />
+      <option name="GLUE" />
+      <option name="myNameFilter" />
+      <option name="myGeneratedName" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="msgpack-java" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="TARGET" value="" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
+      <option name="BCName" value="" />
+      <option name="IOSSimulatorSdkPath" value="" />
+      <option name="adlOptions" value="" />
+      <option name="airProgramParameters" value="" />
+      <option name="appDescriptorForEmulator" value="Android" />
+      <option name="debugTransport" value="USB" />
+      <option name="debuggerSdkRaw" value="BC SDK" />
+      <option name="emulator" value="NexusOne" />
+      <option name="emulatorAdlOptions" value="" />
+      <option name="fastPackaging" value="true" />
+      <option name="fullScreenHeight" value="0" />
+      <option name="fullScreenWidth" value="0" />
+      <option name="launchUrl" value="false" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="/Applications/Flash Player Debugger.app" />
+        </LauncherParameters>
+      </option>
+      <option name="mobileRunTarget" value="Emulator" />
+      <option name="moduleName" value="" />
+      <option name="overriddenMainClass" value="" />
+      <option name="overriddenOutputFileName" value="" />
+      <option name="overrideMainClass" value="false" />
+      <option name="runTrusted" value="true" />
+      <option name="screenDpi" value="0" />
+      <option name="screenHeight" value="0" />
+      <option name="screenWidth" value="0" />
+      <option name="url" value="http://" />
+      <option name="usbDebugPort" value="7936" />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" package_name="" scope="Class">
+      <option name="BCName" value="" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="/Applications/Flash Player Debugger.app" />
+        </LauncherParameters>
+      </option>
+      <option name="moduleName" value="" />
+      <option name="trusted" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="passParentEnv" value="true" />
+      <setting name="launchBrowser" value="true" />
+      <setting name="launchBrowserUrl" value="" />
+      <setting name="depsClasspath" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JarApplication" factoryName="JAR Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Java Scratch" factoryName="Java Scratch">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SCRATCH_FILE_ID" value="0" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="msgpack-java" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="msgpack-java" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="ScalaTestRunConfiguration" factoryName="ScalaTest">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="" />
+      <setting name="testKind" value="Class" />
+      <setting name="showProgressMessages" value="true" />
+      <classRegexps />
+      <testRegexps />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Specs2RunConfiguration" factoryName="Specs2">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="" />
+      <setting name="testKind" value="Class" />
+      <setting name="showProgressMessages" value="true" />
+      <classRegexps />
+      <testRegexps />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <module name="msgpack-java" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Run Launcher">
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Attests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="msgpack-java" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="msgpack-java" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="msgpack-java" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="msgpack-java" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="msgpack-java" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="testToRun" value="" />
+      <option name="keywords" value="" />
+      <option name="params" value="" />
+      <option name="USE_PARAM" value="false" />
+      <option name="USE_KEYWORD" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="uTestRunConfiguration" factoryName="utest">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="" />
+      <setting name="testKind" value="Class" />
+      <setting name="showProgressMessages" value="true" />
+      <classRegexps />
+      <testRegexps />
+      <envs />
+      <method />
+    </configuration>
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="JUnit.TestBooleanArrayTemplate.testBufferPackBufferUnpack00" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.TestBooleanArrayTemplate.testPackUnpack00" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.TestClassTemplate.testClassTemplate" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.TestBufferPackUnpack" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.TestClassTemplate" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.TestClassTemplate" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.TestBufferPackUnpack" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.TestClassTemplate.testClassTemplate" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.TestBooleanArrayTemplate.testPackUnpack00" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.TestBooleanArrayTemplate.testBufferPackBufferUnpack00" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SbtLocalSettings">
+    <option name="modificationStamps">
+      <map>
+        <entry key="$USER_HOME$/chat/agemooij-stream-experiments" value="1467811064000" />
+        <entry key="$USER_HOME$/chat/akka-cluster-sharding-scala" value="1471646434000" />
+        <entry key="$USER_HOME$/chat/akka-clustering" value="1471646396000" />
+        <entry key="$USER_HOME$/chat/reactive-kafka-scala" value="1468888299000" />
+        <entry key="$PROJECT_DIR$/../akka" value="82464432904000" />
+        <entry key="$PROJECT_DIR$/../analytics-kafka-dispatcher" value="1486411645000" />
+        <entry key="$PROJECT_DIR$/../chat" value="1468537111000" />
+        <entry key="$PROJECT_DIR$/../clustered-chat" value="1467926457000" />
+        <entry key="$PROJECT_DIR$/../config-server" value="1486679934000" />
+        <entry key="$PROJECT_DIR$" value="1492811614000" />
+        <entry key="$PROJECT_DIR$/../signalj-chat-scala" value="1468784225000" />
+      </map>
+    </option>
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="10c44416-8dfc-4548-89bb-af52cf05dd72" name="Default" comment="" />
+      <created>1493846849708</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1493846849708</updated>
+      <workItem from="1493846850973" duration="7847000" />
+      <workItem from="1493856366829" duration="5633000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="TestBooleanArrayTemplate_testPackUnpack00 - 2017.05.03 at 18h 32m 19s.xml">
+      <configuration name="TestBooleanArrayTemplate.testPackUnpack00" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestBufferPackUnpack - 2017.05.03 at 18h 30m 46s.xml">
+      <configuration name="TestBufferPackUnpack" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestBufferPackUnpack - 2017.05.03 at 18h 32m 28s.xml">
+      <configuration name="TestBufferPackUnpack" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestClassTemplate - 2017.05.03 at 18h 33m 26s.xml">
+      <configuration name="TestClassTemplate" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestClassTemplate - 2017.05.03 at 18h 37m 32s.xml">
+      <configuration name="TestClassTemplate" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestClassTemplate - 2017.05.03 at 18h 42m 50s.xml">
+      <configuration name="TestClassTemplate" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestClassTemplate - 2017.05.03 at 18h 43m 58s.xml">
+      <configuration name="TestClassTemplate" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestClassTemplate - 2017.05.03 at 18h 48m 27s.xml">
+      <configuration name="TestClassTemplate" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestClassTemplate - 2017.05.03 at 18h 48m 52s.xml">
+      <configuration name="TestClassTemplate" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestClassTemplate - 2017.05.03 at 18h 49m 18s.xml">
+      <configuration name="TestClassTemplate" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="13480000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1881" y="-76" width="1680" height="921" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Kevoree Base64 Translator" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39906102" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298122" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298122" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/template/TestBooleanArrayTemplate.java</url>
+          <line>85</line>
+          <properties />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/TestBufferPackBufferUnpack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1050">
+          <caret line="82" column="20" lean-forward="false" selection-start-line="82" selection-start-column="20" selection-end-line="82" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/packer/BufferPacker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="23" column="4" lean-forward="false" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#961#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/unpacker/BufferUnpacker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="44" column="66" lean-forward="false" selection-start-line="44" selection-start-column="66" selection-end-line="44" selection-end-column="66" />
+          <folding>
+            <element signature="e#0#1530#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/template/TestBigDecimalTemplate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="42" column="31" lean-forward="false" selection-start-line="42" selection-start-column="31" selection-end-line="42" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/template/TestTemplates.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="21" column="13" lean-forward="false" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/template/builder/TestSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="35" column="13" lean-forward="false" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/util/TemplatePrecompiler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="66" column="0" lean-forward="false" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#6349#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/util/TestTemplatePreCompilerBufferPackBufferUnpack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/template/CharacterTemplate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="26" column="20" lean-forward="false" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#1796#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#1689#1690#0" expanded="false" />
+            <element signature="e#1720#1721#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/MessagePack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5190">
+          <caret line="402" column="23" lean-forward="false" selection-start-line="402" selection-start-column="23" selection-end-line="402" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#22256#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#1926#1927#0" expanded="false" />
+            <element signature="e#1979#1980#0" expanded="false" />
+            <element signature="e#2092#2093#0" expanded="false" />
+            <element signature="e#2157#2158#0" expanded="false" />
+            <element signature="e#2213#2214#0" expanded="false" />
+            <element signature="e#2253#2254#0" expanded="false" />
+            <element signature="e#2370#2371#0" expanded="false" />
+            <element signature="e#2413#2414#0" expanded="false" />
+            <element signature="e#2706#2707#0" expanded="false" />
+            <element signature="e#2761#2762#0" expanded="false" />
+            <element signature="e#2964#2965#0" expanded="false" />
+            <element signature="e#3020#3021#0" expanded="false" />
+            <element signature="e#3303#3304#0" expanded="false" />
+            <element signature="e#3371#3372#0" expanded="false" />
+            <element signature="e#3656#3657#0" expanded="false" />
+            <element signature="e#3712#3713#0" expanded="false" />
+            <element signature="e#3918#3919#0" expanded="false" />
+            <element signature="e#3976#3977#0" expanded="false" />
+            <element signature="e#4243#4244#0" expanded="false" />
+            <element signature="e#4300#4301#0" expanded="false" />
+            <element signature="e#4950#4951#0" expanded="false" />
+            <element signature="e#5008#5009#0" expanded="false" />
+            <element signature="e#16083#16084#0" expanded="false" />
+            <element signature="e#16122#16123#0" expanded="false" />
+            <element signature="e#16385#16386#0" expanded="false" />
+            <element signature="e#16434#16435#0" expanded="false" />
+            <element signature="e#16642#16643#0" expanded="false" />
+            <element signature="e#16690#16691#0" expanded="false" />
+            <element signature="e#16859#16860#0" expanded="false" />
+            <element signature="e#16896#16897#0" expanded="false" />
+            <element signature="e#17175#17176#0" expanded="false" />
+            <element signature="e#17219#17220#0" expanded="false" />
+            <element signature="e#17263#17264#0" expanded="false" />
+            <element signature="e#17307#17308#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/io/AbstractInput.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="19" column="22" lean-forward="false" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/io/BufferedOutput.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="22" column="15" lean-forward="false" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/template/builder/BuildContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="26" column="18" lean-forward="false" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/template/builder/DefaultBuildContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="27" column="18" lean-forward="false" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/template/builder/BeansBuildContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="23" column="44" lean-forward="false" selection-start-line="23" selection-start-column="44" selection-end-line="23" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/template/builder/JavassistTemplateBuilder.java.orig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="17" column="8" lean-forward="false" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/util/json/JSONUnpacker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="29" column="13" lean-forward="false" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/template/builder/beans/Introspector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="466">
+          <caret line="96" column="28" lean-forward="false" selection-start-line="96" selection-start-column="28" selection-end-line="96" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/packer/BufferPacker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="23" column="4" lean-forward="false" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#961#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/TestBufferPackBufferUnpack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1050">
+          <caret line="82" column="20" lean-forward="false" selection-start-line="82" selection-start-column="20" selection-end-line="82" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/template/CharacterTemplate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="26" column="20" lean-forward="false" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#1796#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#1689#1690#0" expanded="false" />
+            <element signature="e#1720#1721#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/unpacker/BufferUnpacker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="44" column="66" lean-forward="false" selection-start-line="44" selection-start-column="66" selection-end-line="44" selection-end-column="66" />
+          <folding>
+            <element signature="e#0#1530#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/template/TestBigDecimalTemplate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="42" column="31" lean-forward="false" selection-start-line="42" selection-start-column="31" selection-end-line="42" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/template/TestTemplates.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="21" column="13" lean-forward="false" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/template/builder/TestSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="35" column="13" lean-forward="false" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/util/TemplatePrecompiler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="66" column="0" lean-forward="false" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#6349#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/util/TestTemplatePreCompilerBufferPackBufferUnpack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="283" column="13" lean-forward="false" selection-start-line="283" selection-start-column="13" selection-end-line="283" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/template/TestByteArrayTemplate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-910">
+          <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/template/TestBooleanTemplate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-400">
+          <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/template/builder/JavassistTemplateBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/template/builder/TemplateBuilderChain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="32" column="50" lean-forward="false" selection-start-line="32" selection-start-column="50" selection-end-line="32" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/template/TestBooleanArrayTemplate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="75" column="39" lean-forward="false" selection-start-line="75" selection-start-column="39" selection-end-line="75" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/template/TestDoubleArrayTemplate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="86" column="20" lean-forward="false" selection-start-line="86" selection-start-column="20" selection-end-line="86" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/template/TestFloatArrayTemplate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1095">
+          <caret line="86" column="20" lean-forward="false" selection-start-line="86" selection-start-column="20" selection-end-line="86" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/template/TestIntegerArrayTemplate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-482">
+          <caret line="247" column="20" lean-forward="false" selection-start-line="247" selection-start-column="20" selection-end-line="247" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/template/TestLongArrayTemplate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-497">
+          <caret line="247" column="20" lean-forward="false" selection-start-line="247" selection-start-column="20" selection-end-line="247" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/template/ShortArrayTemplate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-20">
+          <caret line="25" column="13" lean-forward="false" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/template/TestShortArrayTemplate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-437">
+          <caret line="247" column="20" lean-forward="false" selection-start-line="247" selection-start-column="20" selection-end-line="247" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/TestBufferPackUnpack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/MessagePack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="339" column="0" lean-forward="false" selection-start-line="339" selection-start-column="0" selection-end-line="339" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/TestClassTemplate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="30" column="49" lean-forward="false" selection-start-line="30" selection-start-column="49" selection-end-line="30" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>scala-sdk-2.11.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>msgpack-java</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
