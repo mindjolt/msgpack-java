@@ -1,299 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="10c44416-8dfc-4548-89bb-af52cf05dd72" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/MessagePack.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/MessagePack.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/MessagePackable.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/MessagePackable.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/MessageTypeException.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/MessageTypeException.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/annotation/Beans.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/annotation/Beans.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/annotation/Delegate.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/annotation/Delegate.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/annotation/Ignore.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/annotation/Ignore.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/annotation/Index.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/annotation/Index.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/annotation/Message.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/annotation/Message.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/annotation/MessagePackBeans.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/annotation/MessagePackBeans.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/annotation/MessagePackDelegate.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/annotation/MessagePackDelegate.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/annotation/MessagePackMessage.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/annotation/MessagePackMessage.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/annotation/MessagePackOrdinalEnum.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/annotation/MessagePackOrdinalEnum.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/annotation/NotNullable.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/annotation/NotNullable.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/annotation/Optional.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/annotation/Optional.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/annotation/OrdinalEnum.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/annotation/OrdinalEnum.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/io/AbstractInput.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/io/AbstractInput.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/io/BufferReferer.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/io/BufferReferer.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/io/BufferedOutput.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/io/BufferedOutput.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/io/ByteBufferOutput.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/io/ByteBufferOutput.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/io/EndOfBufferException.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/io/EndOfBufferException.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/io/Input.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/io/Input.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/io/LinkedBufferInput.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/io/LinkedBufferInput.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/io/LinkedBufferOutput.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/io/LinkedBufferOutput.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/io/Output.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/io/Output.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/io/StreamInput.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/io/StreamInput.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/io/StreamOutput.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/io/StreamOutput.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/packer/AbstractPacker.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/packer/AbstractPacker.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/packer/BufferPacker.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/packer/BufferPacker.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/packer/MessagePackBufferPacker.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/packer/MessagePackBufferPacker.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/packer/MessagePackPacker.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/packer/MessagePackPacker.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/packer/Packer.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/packer/Packer.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/packer/PackerStack.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/packer/PackerStack.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/packer/Unconverter.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/packer/Unconverter.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/template/AbstractTemplate.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/template/AbstractTemplate.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/template/AnyTemplate.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/template/AnyTemplate.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/template/BigDecimalTemplate.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/template/BigDecimalTemplate.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/template/BigIntegerTemplate.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/template/BigIntegerTemplate.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/template/BooleanArrayTemplate.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/template/BooleanArrayTemplate.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/template/BooleanTemplate.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/template/BooleanTemplate.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/template/ByteArrayTemplate.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/template/ByteArrayTemplate.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/template/ByteBufferTemplate.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/template/ByteBufferTemplate.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/template/ByteTemplate.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/template/ByteTemplate.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/template/CharacterTemplate.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/template/CharacterTemplate.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/template/CollectionTemplate.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/template/CollectionTemplate.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/template/DateTemplate.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/template/DateTemplate.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/template/DoubleArrayTemplate.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/template/DoubleArrayTemplate.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/template/DoubleTemplate.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/template/DoubleTemplate.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/template/FieldList.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/template/FieldList.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/template/FieldOption.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/template/FieldOption.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/template/FloatArrayTemplate.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/template/FloatArrayTemplate.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/template/FloatTemplate.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/template/FloatTemplate.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/template/GenericCollectionTemplate.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/template/GenericCollectionTemplate.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/template/GenericMapTemplate.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/template/GenericMapTemplate.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/template/GenericTemplate.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/template/GenericTemplate.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/template/IntegerArrayTemplate.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/template/IntegerArrayTemplate.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/template/IntegerTemplate.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/template/IntegerTemplate.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/template/ListTemplate.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/template/ListTemplate.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/template/LongArrayTemplate.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/template/LongArrayTemplate.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/template/LongTemplate.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/template/LongTemplate.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/template/MapTemplate.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/template/MapTemplate.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/template/MessagePackableTemplate.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/template/MessagePackableTemplate.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/template/NotNullableTemplate.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/template/NotNullableTemplate.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/template/ObjectArrayTemplate.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/template/ObjectArrayTemplate.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/template/OrdinalEnumTemplate.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/template/OrdinalEnumTemplate.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/template/SetTemplate.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/template/SetTemplate.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/template/ShortArrayTemplate.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/template/ShortArrayTemplate.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/template/ShortTemplate.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/template/ShortTemplate.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/template/StringTemplate.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/template/StringTemplate.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/template/Template.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/template/Template.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/template/TemplateReference.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/template/TemplateReference.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/template/TemplateRegistry.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/template/TemplateRegistry.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/template/Templates.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/template/Templates.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/template/ValueTemplate.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/template/ValueTemplate.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/template/builder/AbstractTemplateBuilder.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/template/builder/AbstractTemplateBuilder.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/template/builder/ArrayTemplateBuilder.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/template/builder/ArrayTemplateBuilder.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/template/builder/BeansBuildContext.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/template/builder/BeansBuildContext.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/template/builder/BeansFieldEntry.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/template/builder/BeansFieldEntry.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/template/builder/BuildContext.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/template/builder/BuildContext.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/template/builder/DefaultBuildContext.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/template/builder/DefaultBuildContext.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/template/builder/DefaultFieldEntry.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/template/builder/DefaultFieldEntry.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/template/builder/FieldEntry.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/template/builder/FieldEntry.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/template/builder/JavassistBeansTemplateBuilder.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/template/builder/JavassistBeansTemplateBuilder.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/template/builder/JavassistTemplateBuilder.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/template/builder/JavassistTemplateBuilder.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/template/builder/JavassistTemplateBuilder.java.orig" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/template/builder/JavassistTemplateBuilder.java.orig" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/template/builder/OrdinalEnumTemplateBuilder.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/template/builder/OrdinalEnumTemplateBuilder.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/template/builder/ReflectionBeansTemplateBuilder.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/template/builder/ReflectionBeansTemplateBuilder.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/template/builder/ReflectionTemplateBuilder.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/template/builder/ReflectionTemplateBuilder.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/template/builder/TemplateBuildException.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/template/builder/TemplateBuildException.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/template/builder/TemplateBuilder.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/template/builder/TemplateBuilder.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/template/builder/TemplateBuilderChain.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/template/builder/TemplateBuilderChain.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/template/builder/beans/BeanDescriptor.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/template/builder/beans/BeanDescriptor.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/template/builder/beans/BeanInfo.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/template/builder/beans/BeanInfo.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/template/builder/beans/EventSetDescriptor.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/template/builder/beans/EventSetDescriptor.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/template/builder/beans/ExceptionListener.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/template/builder/beans/ExceptionListener.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/template/builder/beans/Expression.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/template/builder/beans/Expression.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/template/builder/beans/FeatureDescriptor.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/template/builder/beans/FeatureDescriptor.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/template/builder/beans/IndexedPropertyDescriptor.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/template/builder/beans/IndexedPropertyDescriptor.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/template/builder/beans/IntrospectionException.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/template/builder/beans/IntrospectionException.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/template/builder/beans/Introspector.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/template/builder/beans/Introspector.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/template/builder/beans/MethodDescriptor.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/template/builder/beans/MethodDescriptor.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/template/builder/beans/ParameterDescriptor.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/template/builder/beans/ParameterDescriptor.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/template/builder/beans/PropertyChangeEvent.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/template/builder/beans/PropertyChangeEvent.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/template/builder/beans/PropertyChangeListener.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/template/builder/beans/PropertyChangeListener.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/template/builder/beans/PropertyDescriptor.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/template/builder/beans/PropertyDescriptor.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/template/builder/beans/PropertyEditor.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/template/builder/beans/PropertyEditor.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/template/builder/beans/PropertyVetoException.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/template/builder/beans/PropertyVetoException.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/template/builder/beans/SimpleBeanInfo.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/template/builder/beans/SimpleBeanInfo.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/template/builder/beans/StandardBeanInfo.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/template/builder/beans/StandardBeanInfo.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/template/builder/beans/Statement.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/template/builder/beans/Statement.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/template/builder/beans/XMLDecoder.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/template/builder/beans/XMLDecoder.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/type/AbstractArrayValue.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/type/AbstractArrayValue.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/type/AbstractBooleanValue.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/type/AbstractBooleanValue.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/type/AbstractMapValue.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/type/AbstractMapValue.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/type/AbstractRawValue.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/type/AbstractRawValue.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/type/AbstractValue.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/type/AbstractValue.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/type/ArrayValue.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/type/ArrayValue.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/type/ArrayValueImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/type/ArrayValueImpl.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/type/BigIntegerValueImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/type/BigIntegerValueImpl.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/type/BooleanValue.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/type/BooleanValue.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/type/ByteArrayRawValueImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/type/ByteArrayRawValueImpl.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/type/DoubleValueImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/type/DoubleValueImpl.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/type/FalseValueImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/type/FalseValueImpl.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/type/FloatValue.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/type/FloatValue.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/type/FloatValueImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/type/FloatValueImpl.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/type/IntValueImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/type/IntValueImpl.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/type/IntegerValue.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/type/IntegerValue.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/type/LongValueImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/type/LongValueImpl.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/type/MapValue.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/type/MapValue.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/type/NilValue.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/type/NilValue.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/type/NumberValue.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/type/NumberValue.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/type/RawValue.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/type/RawValue.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/type/SequentialMapValueImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/type/SequentialMapValueImpl.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/type/StringRawValueImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/type/StringRawValueImpl.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/type/TrueValueImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/type/TrueValueImpl.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/type/Value.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/type/Value.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/type/ValueFactory.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/type/ValueFactory.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/type/ValueType.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/type/ValueType.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/unpacker/AbstractUnpacker.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/unpacker/AbstractUnpacker.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/unpacker/Accept.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/unpacker/Accept.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/unpacker/ArrayAccept.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/unpacker/ArrayAccept.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/unpacker/BigIntegerAccept.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/unpacker/BigIntegerAccept.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/unpacker/BufferUnpacker.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/unpacker/BufferUnpacker.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/unpacker/ByteArrayAccept.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/unpacker/ByteArrayAccept.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/unpacker/Converter.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/unpacker/Converter.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/unpacker/DoubleAccept.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/unpacker/DoubleAccept.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/unpacker/IntAccept.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/unpacker/IntAccept.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/unpacker/LongAccept.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/unpacker/LongAccept.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/unpacker/MapAccept.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/unpacker/MapAccept.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/unpacker/MessagePackBufferUnpacker.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/unpacker/MessagePackBufferUnpacker.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/unpacker/MessagePackUnpacker.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/unpacker/MessagePackUnpacker.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/unpacker/SizeLimitException.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/unpacker/SizeLimitException.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/unpacker/SkipAccept.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/unpacker/SkipAccept.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/unpacker/StringAccept.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/unpacker/StringAccept.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/unpacker/Unpacker.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/unpacker/Unpacker.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/unpacker/UnpackerIterator.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/unpacker/UnpackerIterator.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/unpacker/UnpackerStack.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/unpacker/UnpackerStack.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/unpacker/ValueAccept.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/unpacker/ValueAccept.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/util/TemplatePrecompiler.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/util/TemplatePrecompiler.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/util/android/DalvikVmChecker.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/util/android/DalvikVmChecker.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/util/android/PortedImmutableEntry.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/util/android/PortedImmutableEntry.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/util/json/JSON.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/util/json/JSON.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/util/json/JSONBufferPacker.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/util/json/JSONBufferPacker.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/util/json/JSONBufferUnpacker.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/util/json/JSONBufferUnpacker.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/util/json/JSONPacker.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/util/json/JSONPacker.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/msgpack/util/json/JSONUnpacker.java" afterPath="$PROJECT_DIR$/src/main/java/com/jamcity/msgpack/util/json/JSONUnpacker.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/TestBufferPackBufferUnpack.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/TestBufferPackBufferUnpack.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/TestBufferPackConvert.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/TestBufferPackConvert.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/TestBufferPackUnpack.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/TestBufferPackUnpack.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/TestClassTemplate.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/TestClassTemplate.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/TestCrossLang.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/TestCrossLang.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/TestMessagePack01.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/TestMessagePack01.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/TestMessagePack02.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/TestMessagePack02.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/TestNestedList.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/TestNestedList.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/TestPackBufferUnpack.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/TestPackBufferUnpack.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/TestPackConvert.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/TestPackConvert.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/TestPackUnpack.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/TestPackUnpack.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/TestSet.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/TestSet.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/TestSimpleArrays.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/TestSimpleArrays.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/TestSimpleConvertUnconvert.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/TestSimpleConvertUnconvert.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/TestSimplePackable.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/TestSimplePackable.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/TestThreadSafety.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/TestThreadSafety.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/TestUnconvertConvert.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/TestUnconvertConvert.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/TestUnconvertReconvert.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/TestUnconvertReconvert.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/annotation/TestOptionalBufferPackBufferUnpack.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/annotation/TestOptionalBufferPackBufferUnpack.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/annotation/TestOptionalBufferPackUnpack.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/annotation/TestOptionalBufferPackUnpack.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/annotation/TestOptionalJavassistBufferPackBufferUnpack.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/annotation/TestOptionalJavassistBufferPackBufferUnpack.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/annotation/TestOptionalJavassistBufferPackUnpack.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/annotation/TestOptionalJavassistBufferPackUnpack.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/annotation/TestOptionalJavassistPackBufferUnpack.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/annotation/TestOptionalJavassistPackBufferUnpack.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/annotation/TestOptionalJavassistPackUnpack.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/annotation/TestOptionalJavassistPackUnpack.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/annotation/TestOptionalPackBufferUnpack.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/annotation/TestOptionalPackBufferUnpack.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/annotation/TestOptionalPackUnpack.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/annotation/TestOptionalPackUnpack.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/annotation/TestOptionalReflectionBufferPackBufferUnpack.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/annotation/TestOptionalReflectionBufferPackBufferUnpack.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/annotation/TestOptionalReflectionBufferPackUnpack.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/annotation/TestOptionalReflectionBufferPackUnpack.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/annotation/TestOptionalReflectionPackBufferUnpack.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/annotation/TestOptionalReflectionPackBufferUnpack.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/annotation/TestOptionalReflectionPackUnpack.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/annotation/TestOptionalReflectionPackUnpack.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/annotation/TestSetOptional.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/annotation/TestSetOptional.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/io/TestLinkedBufferInput.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/io/TestLinkedBufferInput.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/io/TestLinkedBufferOutput.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/io/TestLinkedBufferOutput.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/simple/TestSimpleDynamicTyping.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/simple/TestSimpleDynamicTyping.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/simple/TestSimplePackUnpack.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/simple/TestSimplePackUnpack.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/simple/TestSimpleStreaming.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/simple/TestSimpleStreaming.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/template/TestBigDecimalTemplate.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/template/TestBigDecimalTemplate.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/template/TestBigIntegerTemplate.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/template/TestBigIntegerTemplate.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/template/TestBooleanArrayTemplate.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/template/TestBooleanArrayTemplate.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/template/TestBooleanTemplate.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/template/TestBooleanTemplate.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/template/TestByteArrayTemplate.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/template/TestByteArrayTemplate.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/template/TestByteBufferTemplate.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/template/TestByteBufferTemplate.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/template/TestCharacterTemplate.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/template/TestCharacterTemplate.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/template/TestDateTemplate.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/template/TestDateTemplate.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/template/TestDoubleArrayTemplate.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/template/TestDoubleArrayTemplate.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/template/TestDoubleTemplate.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/template/TestDoubleTemplate.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/template/TestFloatArrayTemplate.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/template/TestFloatArrayTemplate.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/template/TestFloatTemplate.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/template/TestFloatTemplate.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/template/TestIntegerArrayTemplate.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/template/TestIntegerArrayTemplate.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/template/TestIntegerTemplate.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/template/TestIntegerTemplate.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/template/TestListTemplate.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/template/TestListTemplate.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/template/TestLongArrayTemplate.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/template/TestLongArrayTemplate.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/template/TestLongTemplate.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/template/TestLongTemplate.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/template/TestMapTemplate.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/template/TestMapTemplate.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/template/TestShortArrayTemplate.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/template/TestShortArrayTemplate.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/template/TestShortTemplate.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/template/TestShortTemplate.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/template/TestStringTemplate.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/template/TestStringTemplate.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/template/TestTemplateRegistry.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/template/TestTemplateRegistry.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/template/TestTemplates.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/template/TestTemplates.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/template/builder/TestJavassistBufferPackBufferUnpack.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/template/builder/TestJavassistBufferPackBufferUnpack.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/template/builder/TestJavassistBufferPackConvert.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/template/builder/TestJavassistBufferPackConvert.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/template/builder/TestJavassistBufferPackUnpack.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/template/builder/TestJavassistBufferPackUnpack.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/template/builder/TestJavassistPackBufferUnpack.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/template/builder/TestJavassistPackBufferUnpack.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/template/builder/TestJavassistPackConvert.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/template/builder/TestJavassistPackConvert.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/template/builder/TestJavassistPackUnpack.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/template/builder/TestJavassistPackUnpack.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/template/builder/TestOrdinalEnumBufferPackBufferUnpack.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/template/builder/TestOrdinalEnumBufferPackBufferUnpack.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/template/builder/TestOrdinalEnumBufferPackConvert.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/template/builder/TestOrdinalEnumBufferPackConvert.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/template/builder/TestOrdinalEnumBufferPackUnpack.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/template/builder/TestOrdinalEnumBufferPackUnpack.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/template/builder/TestOrdinalEnumPackBufferUnpack.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/template/builder/TestOrdinalEnumPackBufferUnpack.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/template/builder/TestOrdinalEnumPackConvert.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/template/builder/TestOrdinalEnumPackConvert.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/template/builder/TestOrdinalEnumPackUnpack.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/template/builder/TestOrdinalEnumPackUnpack.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/template/builder/TestReflectionBeansBufferPackBufferUnpack.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/template/builder/TestReflectionBeansBufferPackBufferUnpack.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/template/builder/TestReflectionBeansBufferPackConvert.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/template/builder/TestReflectionBeansBufferPackConvert.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/template/builder/TestReflectionBeansBufferPackUnpack.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/template/builder/TestReflectionBeansBufferPackUnpack.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/template/builder/TestReflectionBeansPackBufferUnpack.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/template/builder/TestReflectionBeansPackBufferUnpack.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/template/builder/TestReflectionBeansPackConvert.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/template/builder/TestReflectionBeansPackConvert.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/template/builder/TestReflectionBeansPackUnpack.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/template/builder/TestReflectionBeansPackUnpack.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/template/builder/TestReflectionBufferPackBufferUnpack.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/template/builder/TestReflectionBufferPackBufferUnpack.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/template/builder/TestReflectionBufferPackConvert.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/template/builder/TestReflectionBufferPackConvert.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/template/builder/TestReflectionBufferPackUnpack.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/template/builder/TestReflectionBufferPackUnpack.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/template/builder/TestReflectionPackBufferUnpack.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/template/builder/TestReflectionPackBufferUnpack.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/template/builder/TestReflectionPackConvert.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/template/builder/TestReflectionPackConvert.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/template/builder/TestReflectionPackUnpack.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/template/builder/TestReflectionPackUnpack.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/template/builder/TestSet.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/template/builder/TestSet.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/testclasses/AbstractClass.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/testclasses/AbstractClass.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/testclasses/EnumTypeFieldsClass.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/testclasses/EnumTypeFieldsClass.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/testclasses/EnumTypeFieldsClassNotNullable.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/testclasses/EnumTypeFieldsClassNotNullable.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/testclasses/FinalClass.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/testclasses/FinalClass.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/testclasses/InheritanceClass.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/testclasses/InheritanceClass.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/testclasses/InheritanceClassNotNullable.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/testclasses/InheritanceClassNotNullable.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/testclasses/Interface.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/testclasses/Interface.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/testclasses/ListTypeFieldsClass.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/testclasses/ListTypeFieldsClass.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/testclasses/ListTypeFieldsClassNotNullable.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/testclasses/ListTypeFieldsClassNotNullable.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/testclasses/MapTypeFieldsClass.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/testclasses/MapTypeFieldsClass.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/testclasses/MapTypeFieldsClassNotNullable.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/testclasses/MapTypeFieldsClassNotNullable.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/testclasses/MessagePackableTypeFieldsClass.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/testclasses/MessagePackableTypeFieldsClass.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/testclasses/MessagePackableTypeFieldsClassNotNullable.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/testclasses/MessagePackableTypeFieldsClassNotNullable.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/testclasses/ModifiersFieldsClass.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/testclasses/ModifiersFieldsClass.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/testclasses/ModifiersFieldsClassNotNullable.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/testclasses/ModifiersFieldsClassNotNullable.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/testclasses/PrimitiveTypeFieldsClass.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/testclasses/PrimitiveTypeFieldsClass.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/testclasses/PrimitiveTypeFieldsClassNotNullable.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/testclasses/PrimitiveTypeFieldsClassNotNullable.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/testclasses/ReferenceCycleTypeFieldsClass.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/testclasses/ReferenceCycleTypeFieldsClass.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/testclasses/ReferenceCycleTypeFieldsClassNotNullable.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/testclasses/ReferenceCycleTypeFieldsClassNotNullable.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/testclasses/ReferenceTypeFieldsClass.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/testclasses/ReferenceTypeFieldsClass.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/testclasses/ReferenceTypeFieldsClassNotNullable.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/testclasses/ReferenceTypeFieldsClassNotNullable.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/testclasses/SuperClass.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/testclasses/SuperClass.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/testclasses/SuperClassNotNullable.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/testclasses/SuperClassNotNullable.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/testclasses/UserDefinedTypeFieldsClass.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/testclasses/UserDefinedTypeFieldsClass.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/testclasses/UserDefinedTypeFieldsClassNotNullable.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/testclasses/UserDefinedTypeFieldsClassNotNullable.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/type/ProxyValue.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/type/ProxyValue.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/type/TestEquals.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/type/TestEquals.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/type/TestHashCode.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/type/TestHashCode.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/unpacker/TestBufferUnpacker.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/unpacker/TestBufferUnpacker.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/unpacker/TestMalformedEncoding.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/unpacker/TestMalformedEncoding.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/unpacker/TestReadTemplate.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/unpacker/TestReadTemplate.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/unpacker/TestSizeLimit.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/unpacker/TestSizeLimit.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/unpacker/TestUnpackerIterator.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/unpacker/TestUnpackerIterator.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/unpacker/TestUnpackerSkip.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/unpacker/TestUnpackerSkip.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/util/TestTemplatePreCompilerBufferPackBufferUnpack.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/util/TestTemplatePreCompilerBufferPackBufferUnpack.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/util/json/TestJSONBufferPackBufferUnpack.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/util/json/TestJSONBufferPackBufferUnpack.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/util/json/TestJSONBufferPackUnpack.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/util/json/TestJSONBufferPackUnpack.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/util/json/TestJSONPackBufferUnpack.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/util/json/TestJSONPackBufferUnpack.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/util/json/TestJSONPackUnpack.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/util/json/TestJSONPackUnpack.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/util/json/TestSimpleJSONPackUnpack.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/util/json/TestSimpleJSONPackUnpack.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/msgpack/util/json/TestValueToStringJSONUnpack.java" afterPath="$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/util/json/TestValueToStringJSONUnpack.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CHANGES.txt" afterPath="$PROJECT_DIR$/CHANGES.txt" />
-    </list>
+    <list default="true" id="10c44416-8dfc-4548-89bb-af52cf05dd72" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -380,7 +88,7 @@
       <file leaf-file-name="TestClassTemplate.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/TestClassTemplate.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
+            <state relative-caret-position="450">
               <caret line="30" column="49" lean-forward="false" selection-start-line="30" selection-start-column="49" selection-end-line="30" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -546,177 +254,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="msgpack-java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="msgpack-java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="msgpack" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="msgpack-java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="msgpack-java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="msgpack" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TestClassTemplate.java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="msgpack-java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="msgpack-java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="msgpack" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="template" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="msgpack-java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="msgpack-java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="msgpack-java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="msgpack-java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="build" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="msgpack-java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="msgpack-java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="build" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="classes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jamcity" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="msgpack-java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="msgpack-java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="build" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="classes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1507,7 +1045,7 @@
       <option name="presentableId" value="Default" />
       <updated>1493846849708</updated>
       <workItem from="1493846850973" duration="7847000" />
-      <workItem from="1493856366829" duration="5633000" />
+      <workItem from="1493856366829" duration="6727000" />
     </task>
     <servers />
   </component>
@@ -1544,11 +1082,11 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13480000" />
+    <option name="totallyTimeSpent" value="14574000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1881" y="-76" width="1680" height="921" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1562,7 +1100,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39906102" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39906102" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298122" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1571,7 +1109,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298122" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -1996,7 +1534,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/jamcity/msgpack/TestClassTemplate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
+        <state relative-caret-position="450">
           <caret line="30" column="49" lean-forward="false" selection-start-line="30" selection-start-column="49" selection-end-line="30" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
