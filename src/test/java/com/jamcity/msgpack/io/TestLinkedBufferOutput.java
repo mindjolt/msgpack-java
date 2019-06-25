@@ -89,5 +89,29 @@ public class TestLinkedBufferOutput {
         assertEquals(b1.length, b2.length);
         assertArrayEquals(b1, b2);
     }
+
+    @Test
+    public void testCopy() throws IOException {
+        ByteArrayOutputStream bo = new ByteArrayOutputStream();
+        DataOutputStream o1 = new DataOutputStream(bo);
+        LinkedBufferOutput o2 = new LinkedBufferOutput(10);
+        byte[] raw = new byte[9];
+        raw[0] = (byte)1;
+        raw[7] = (byte)1;
+        for(int i=0; i < 11; i++) {
+            o1.write(raw, 0, raw.length);
+            o2.write(raw, 0, raw.length);
+        }
+        LinkedBufferOutput o3 = new LinkedBufferOutput(10);
+        for(int i=0; i < 11; i++) {
+            o1.write(raw, 0, raw.length);
+            o3.write(raw, 0, raw.length);
+        }
+        o3.copyTo(o2);
+        byte[] b1 = bo.toByteArray();
+        byte[] b2 = o2.toByteArray();
+        assertEquals(b1.length, b2.length);
+        assertArrayEquals(b1, b2);
+    }
 }
 

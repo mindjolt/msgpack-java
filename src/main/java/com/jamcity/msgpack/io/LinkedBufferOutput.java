@@ -17,6 +17,7 @@
 //
 package com.jamcity.msgpack.io;
 
+import java.io.IOException;
 import java.util.LinkedList;
 
 public class LinkedBufferOutput extends BufferedOutput {    // JamCity-Mods: Changed to non-final to allow extending
@@ -51,6 +52,15 @@ public class LinkedBufferOutput extends BufferedOutput {    // JamCity-Mods: Cha
             System.arraycopy(buffer, 0, bytes, off, filled);
         }
         return bytes;
+    }
+
+    public void copyTo(Output dest) throws IOException {    // JamCity-Mods: Added this method
+        for (Link l : link) {
+            dest.write(l.buffer, l.offset, l.size);
+        }
+        if (filled > 0) {
+            dest.write(buffer, 0, filled);
+        }
     }
 
     public int getSize() {
