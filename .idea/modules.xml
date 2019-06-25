@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/msgpack-java.iml" filepath="$PROJECT_DIR$/.idea/msgpack-java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/msgpack.iml" filepath="$PROJECT_DIR$/.idea/modules/msgpack.iml" group="msgpack" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/msgpack_main.iml" filepath="$PROJECT_DIR$/.idea/modules/msgpack_main.iml" group="msgpack" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/msgpack_sample.iml" filepath="$PROJECT_DIR$/.idea/modules/msgpack_sample.iml" group="msgpack" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/msgpack_test.iml" filepath="$PROJECT_DIR$/.idea/modules/msgpack_test.iml" group="msgpack" />
     </modules>
   </component>
 </project>

@@ -72,6 +72,11 @@ public final class PackerStack {
         counts[top]--;
     }
 
+    // JamCity-Mods: Added this overload signature to allow appending pre-formatted fragments consisting of multiple keys/values to the output buffer
+    public void reduceCount(int by) {
+        counts[top] -= by;
+    }
+
     public void pop() {
         top--;
     }
