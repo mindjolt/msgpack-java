@@ -34,7 +34,7 @@ def getWorkingBranch() {
 def getGitVersion() {
     def gitDir = file('.git')
     def desc = "git --git-dir=$gitDir describe --tags --dirty --long".execute().text.trim()
-    def match = desc =~ /^(.*)-(.*)-g(.{7})(-dirty)?$/
+    def match = desc =~ /^(.*)-(.*)-g([^-]+)(-dirty)?$/
     if (match.size() == 0)
         return 'none'
     def (_, tag, index, commit, isDirty) = match[0]
